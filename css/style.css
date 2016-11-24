@@ -1,0 +1,170 @@
+/*!
+ * MONO
+ */
+::selection {
+  background: blue; /* WebKit/Blink Browsers */
+  color: white;
+}
+::-moz-selection {
+  background: blue; /* Gecko Browsers */
+  color: white;
+}
+html {
+  background: white;
+}
+body{
+  padding-top: 70px;
+  background: #ececec;
+  border: 20px solid #fff;
+  color: #616161;
+  font-family: monospace;
+}
+footer{
+  background: white;
+  padding: 30px;
+  font-size: 80%;
+}
+a:focus, a:hover{
+  text-decoration: none;
+}
+.lead a{
+  color: #616161;
+  text-decoration: none;
+}
+.lead a:hover{
+  color: blue;
+}
+.font{
+  margin: 10% 0;
+  padding-top: 10%;
+}
+.zoom span{
+  font-size: 210px;
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: white;
+}
+.number {
+  font-style: normal;
+  display: block;
+  text-align: center;
+  padding: 10px;
+  color: blue;
+  position: absolute;
+  top: 0%;
+  border: 1px solid;
+  box-shadow: 2px 2px 0;
+}
+.txt{
+  margin: 70px 0;
+  line-height: 2em;
+}
+.author{
+  text-transform: uppercase;
+  padding-left: 10px;
+  color: blue;
+}
+.author a{
+  color: blue;
+}
+.glyphicon {
+  padding-right: 10px;
+}
+footer a{
+  color: blue;
+}
+
+/*** Xusni by Codrops ***/
+.nav {
+  position: fixed;
+  left: 0;
+  top: 30%;
+}
+
+.nav__item {
+  line-height: 1;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0;
+  color: blue;
+  border: 0;
+  background: none;
+}
+
+.nav__item:focus {
+  outline: none;
+}
+
+.nav--xusni .nav__item {
+  width: 25px;
+  height: 8px;
+  margin: 1.5em 0;
+}
+
+.nav--xusni .nav__item::after {
+  content: '';
+  position: absolute;
+  top: 35%;
+  left: 0;
+  width: 80%;
+  height: 30%;
+  background: blue;
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+  -webkit-transition: -webkit-transform 0.5s, background-color 0.5s;
+  transition: transform 0.5s, background-color 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.nav--xusni .nav__item:not(.nav__item--current):hover::after,
+.nav--xusni .nav__item:not(.nav__item--current):focus::after {
+  background: blue;
+  -webkit-transition: background-color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.nav--xusni .nav__item--current::after {
+  background: blue;
+  -webkit-transform: scale3d(0.2,1,1);
+  transform: scale3d(0.2,1,1);
+}
+
+.nav--xusni .nav__item-title {
+  width: 10em;
+  font-size: 85%;
+  margin: 0 0 0 2em;
+  opacity: 0.2;
+  display: block;
+  -webkit-transform: translate3d(2em,0,0);
+  transform: translate3d(2em,0,0);
+  -webkit-transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  -webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+  transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+}
+
+.nav--xusni .nav__item--current .nav__item-title
+ {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+  opacity: 1;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.nav--xusni .nav__item:hover .nav__item-title,
+.nav--xusni .nav__item:focus .nav__item-title,
+.nav--xusni .nav__item:active .nav__item-title{
+  transition-delay: 0.05s;
+  opacity: 1;
+  text-decoration: none;
+  color: blue;
+}
+#share{
+  text-decoration: underline;
+  color: blue;
+}
