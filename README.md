@@ -1,6 +1,8 @@
-# [Start Bootstrap](http://startbootstrap.com/) - [Bare](http://startbootstrap.com/template-overviews/bare/)
+# [A(nother) curated list of monospaced fonts ](https://antonela.design/mono)
 
-Dystopian books married with the most beautiful monospaced fonts around handipicked by [Antonela](http://antonela.design). 
+🐒
+
+Dystopian books married with the most beautiful monospaced fonts around hand-picked by [Antonela](https://antonela.design). 
 
 ## Suggestions
 
