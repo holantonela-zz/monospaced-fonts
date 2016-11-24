@@ -10,7 +10,7 @@ Do you want to see your favorite book or monospaced font listed? [Open a new iss
 
 ## Creator
 
-A(nother) curated list of monospaced fonts was created by and is maintained by **[Antonela Debiasi](https://antonela.design/)**.
+A(nother) curated list of monospaced fonts was created by and is maintained by [Antonela Debiasi](https://antonela.design/).
 
 * https://twitter.com/holantonela
 * https://github.com/antonela
