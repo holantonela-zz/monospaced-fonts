@@ -168,3 +168,14 @@ footer a{
   text-decoration: underline;
   color: blue;
 }
+
+/* Some mobile tweaks */
+@media(max-width:767px){  
+  .section--nav {
+      display: none;
+    }
+  footer{
+    text-align: right;
+  }
+}
+
