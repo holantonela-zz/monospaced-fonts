@@ -92,6 +92,7 @@ footer a{
   color: blue;
   border: 0;
   background: none;
+  cursor: pointer;
 }
 
 .nav__item:focus {
